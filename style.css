@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topSection {
+    width: 100%;
+    height: 390px;
+    display: flex;
+}
+
+.topLeft {
+    width: 45%;
+    height: 420px;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+.orderBtn {
+    background: linear-gradient(90deg, rgba(229, 117, 70, 1) 31%, rgba(231, 200, 0, 1) 100%);
+    width: 30%;
+    height: 10%;
+    border: none;
+    margin-top: 8%;
+    color:rgb(252, 252, 252);
+    font-size: 15px;
+    border-radius: 20px;
+}
+.orderBtn:hover{
+    background: linear-gradient(90deg, rgb(54, 30, 20) 31%, rgb(130, 122, 66) 100%);
+    cursor: pointer;
+}
+
+.topRight {
+    width: 45%;
+    height: 420px;
+    background-image: url("topbg.png");
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position-x: 60px;
+}
+.topRight img{
+    width: 62%;
+}
+
+.bottomSection {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    background-image: url("/bottombg.png");
+    margin-top: 40px;
+}
+
+.bottomLeft {
+    width: 50%;
+    height: 420px;
+}
+.bottomLeft img{
+    width: 33%;
+    margin-left: 30%;
+}
+
+.PersonDetails{
+    width: 60%;
+}
+.bottomRight {
+    width: 50%;
+    height: 420px;
+}
